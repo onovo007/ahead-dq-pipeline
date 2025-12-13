@@ -425,13 +425,14 @@ Compare month-to-month to track improvements!
 ---
 
 ## 📞 WHO TO CONTACT
-AHEAD Data Analytics team
 
-**Project Technical Contact:**
-- Dr. Amobi Onovo, 
-  HIV Data Scientist, Integrated Analytics
-  UNICEF AHEAD Project
-  Email: aonovo@unicef.org
+UNICEF Health and HIV Analytics (DAPM)
+
+**Project Technical Contact:**  
+Dr. Amobi Onovo  
+HIV Data Scientist, Integrated Analytics  
+UNICEF AHEAD Project  
+Email: aonovo@unicef.org
 ---
 
 ## 🎯 KEY TAKEAWAYS
