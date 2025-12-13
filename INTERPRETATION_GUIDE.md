@@ -796,9 +796,14 @@ dq_review_ken_level4_2024_12.xlsx
 ## 📞 **GETTING HELP**
 
 ### **Technical Issues**
-- Contact: UNICEF AHEAD Teachnical team
+- Contact: **UNICEF Health & HIV Unit (HHU) within DAPM*
 - Email: Send an email
 - Include: Error message, screenshot, steps to reproduce
+
+  **project Technical Contact**
+  Dr. Amobi Onovo
+  HIV Data Scientist, Integrated Analytics
+  AHEAD project
 
 ---
 
