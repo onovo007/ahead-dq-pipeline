@@ -796,19 +796,9 @@ dq_review_ken_level4_2024_12.xlsx
 ## 📞 **GETTING HELP**
 
 ### **Technical Issues**
-- Contact: Technical lead
-- Email: [technical-lead@email.com]
+- Contact: UNICEF AHEAD Teachnical team
+- Email: Send an email
 - Include: Error message, screenshot, steps to reproduce
-
-### **Interpretation Questions**
-- Contact: M&E team lead
-- Email: [me-lead@email.com]
-- Include: Specific metric, question, context
-
-### **Program Questions**
-- Contact: Program manager
-- Email: [program-manager@email.com]
-- Include: Indicator, trend, proposed action
 
 ---
 
