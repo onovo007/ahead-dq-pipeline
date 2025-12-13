@@ -762,7 +762,7 @@ When reporting problems, include:
 
 ## Contact & Support
 
-**UNICEF Health & HIV Analytics (DAPM)**
+**UNICEF Health and HIV Analytics Unit (HHU) within DAPM**
 
 **Project Technical Contact:**  
 Dr. Amobi Onovo  
