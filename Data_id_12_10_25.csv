@@ -1,0 +1,97 @@
+indicator_code/ data_id,indicator_name,data_elements/ indicator_type,n_obs,n_missing,start_date,end_date,pct_missing,data_availability,category
+pFHAXocl50Q,OPD attendance - total male (717),opd_m,131072,0,1/1/2018,7/1/2025,0,present,core
+xNZOF242UaV,OPD attendance - total female (717),opd_f,131066,0,1/1/2018,7/1/2025,0,present,core
+f9vesk5d4IY,MOH 711 New ANC clients,anc1,130922,0,1/1/2018,7/1/2025,0,present,core
+ku80YRejJPg,MOH710 DPT/Hep+HiB1 doses Administered,penta1,130890,0,1/1/2018,7/1/2025,0,present,core
+OyddF1qflzP,MOH710 DPT/Hep+HiB3 doses Administered,penta3,130871,0,1/1/2018,7/1/2025,0,present,core
+MifkeL55fBg,Essential - vitamin A supplementation for children aged between 6 to 59 months,vitamina,130558,0,1/1/2018,7/1/2025,0,present,immunization
+sRbqc5gBQhI,MOH710 Measles-Rubella 1 doses Administered,measles1,130539,0,1/1/2018,7/1/2025,0,present,immunization
+Fz0LzxMT1vV,MOH 711 Pregnant women completing 4 ANC visits,anc4,129952,0,1/1/2018,7/1/2025,0,present,core
+O3qECFGrzeF,MOH710 BCG doses Administered,bcg,129127,0,1/1/2018,7/1/2025,0,present,core
+Jw3alL29ZEi,MOH710 Measles-Rubella 2 Dose Adm (at 1 1/2 - 2 years),measles2,126796,0,1/1/2018,7/1/2025,0,present,immunization
+uvBuzBj0AbL,MOH 711 ANC clients tested for syphilis,syphilistest_ancqoc,126593,0,1/1/2018,7/1/2025,0,present,rmnch
+QStt76mU06X,PNC Attendance,pnc1,126545,0,1/1/2018,7/1/2025,0,present,core
+fJ7CyT97iJC,Family Planning New Cases,fp_new,124988,0,1/1/2018,7/1/2025,0,present,core
+uHBmKxktYk0,MOH 711 No. Adolescents (15-19 years) Presenting With Pregnancy at 1st ANC Visit,anc1_ado,123540,0,1/1/2018,7/1/2025,0,present,rmnch
+hNyiGOxeAE0,Essential - Hypertension cases - total,hypertension,122647,0,1/1/2018,7/1/2025,0,present,rmnch
+MVIKFGNvNJp,Family Planning Revisits,fp_revisits,122425,0,1/1/2018,7/1/2025,0,present,core
+FXeDYp2ATE9,Total deliveries in facilities,delivery,120799,0,1/1/2018,7/1/2025,0,present,core
+RsYvCg0aeuZ,Total Skilled Deliveries,skilled_del,120799,0,1/1/2018,7/1/2025,0,present,rmnch
+jaPrPmor6WV,MOH 711 Normal Deliveries,deliveries_normal,120715,0,1/1/2018,7/1/2025,0,present,
+NLKRV7bYbVy,Total Population,population_total,106935,0,1/1/2018,7/1/2025,0,present,population
+ETX9cUWF43c,MOH 731 Initial test at ANC HV02-04,anc_hiv_test,105965,0,1/1/2018,7/1/2025,0,present,hiv
+pMbuvKvH4rg,Population surving infants (under 1 year),population_under1,105044,0,1/1/2018,7/1/2025,0,present,population
+tmlMpIqHimf,Estimated Deliveries,deliveries_estimated,104053,0,1/1/2018,7/1/2025,0,present,rmnch
+pct05jgGcLt,Estimated Number of Pregnant Women,pregnancies,102900,0,1/1/2018,7/1/2025,0,present,
+nVx4FiV8hXq,Essential - No. of PLWHIV currently ART,,100106,0,1/1/2018,7/1/2025,0,present,
+QgiADNKtauy,MOH 705A Rev 2020_ Pneumonia,pneumonia,79475,0,7/1/2020,7/1/2025,0,present,
+Z1seH9SG7wY,MOH 711 Rev 2020_Children under five years with diarrhea treated with ORS and Zinc (Co-pack),dia_ors_zinc,72234,0,12/1/2019,7/1/2025,0,present,rmnch
+q3zSDDKBjqL,Essential Malaria Tests Done (Revised),malaria_rdt,69911,0,1/1/2018,7/1/2025,0,present,
+etbuJ3chcZL,MOH 711 Rev 2020_No. clients with 1st ANC  contact at 12 or less weeks,anc1_12w,68664,0,5/1/2020,7/1/2025,0,present,rmnch
+C6fThjYiDZA,Essential - Women aged 25-49 screened for cervical cancer,cervical_cancer,62205,0,1/1/2018,7/1/2025,0,present,
+xmwpcsYb2vk,MOH710 HPV Vaccine Dose1(at 10 years),hpv1,62011,0,1/1/2019,7/1/2025,0,present,rmnch
+NPZXXjBOSil,MOH710 HPV Vaccine Dose 2 (At least 6 months after HPV dose 1),,53548,0,1/1/2019,7/1/2025,0,present,
+UIok7l6W4nh,MOH 731 Initial PCR < 8wks HV02-44,eid_8wks,51526,0,1/1/2018,7/1/2025,0,present,hiv
+Mh01TRA38Ng,OP: Beneficiaries who Received RUTF Sachet,rutf,44870,0,1/1/2018,7/1/2025,0,present,
+qEXcjDlSJjv,Total Still Births,stillbirth,43934,0,1/1/2018,7/1/2025,0,present,rmnch
+cKr5133RFuN,MOH 711 Rev 2020_No. of clients completed 8th ANC Contact,anc8,38705,0,10/1/2020,7/1/2025,0,present,rmnch
+rAZBTMa7Jy3,MOH 711 Caesarian Sections,csection,32067,0,1/1/2018,7/1/2025,0,present,rmnch
+z3kr3nMK3RI,MOH 711 Children aged 6-23 months supplemented with MNPS,mnps,31982,0,1/1/2018,7/1/2025,0,present,
+chMsCa5zcn7,MOH 711 No. Adolescents (10-14 years) Presenting With Pregnancy at 1st ANC Visit,anc1_ado,30274,0,1/1/2018,7/1/2025,0,present,rmnch
+sMqM8DwiAaj,MOH 711 Breach Delivery,deliveries_breach,29120,0,1/1/2018,7/1/2025,0,present,
+mQz4DhBSv9V,MOH 731 Initial test at L&D HV02-05,HIV testing at L&D,22261,0,1/1/2018,7/1/2025,0,present,
+LQpQQP3KnU1,MOH 731 Initial test at PNC_PNC<=6wks HV02-06,HIV testing at PNC,21463,0,1/1/2018,7/1/2025,0,present,
+Kx64gGqaFVq,MOH 711 Assisted vaginal delivery,deliveries_assisted_vag,6670,0,1/1/2018,7/1/2025,0,present,
+RIvynmrUFRZ,Number of Maternal Deaths reported in health facilities (Old and New tool),mmr_deaths,5087,0,1/1/2018,7/1/2025,0,present,rmnch
+F6NOaTioUje,MOH731B Number screened_HBV,anc_hbv_test,204,0,1/1/2018,1/1/2025,0,missing,
+hn3aChn4sVx,MOH 731 Positive Results _L&D HV02-12,anc_hiv_test_pos_L&D,,,,,,missing,
+nwXS5vxrrr7,MOH 731 Positive Results_ANC HV02-11,anc_hiv_test_pos_ANC,,,,,,missing,
+AfHArvGun12,MOH 731 Positive Results_PNC<=6wks HV02-13,anc_hiv_test_pos_PNC,,,,,,missing,hiv
+ckPCoAwmWmT,MOH 731  Start HAART_L&D       HV02-18,maternal_arvs_newly_initiated_L&D,,,,,,missing,hiv
+WNFWVHMqPv9,MOH 731  Start HAART_ANC       HV02-17,maternal_arvs_newly_initiated_ANC,,,,,,missing,hiv
+vkOYqEesPAi,MOH 731  Start HAART_PNC<=6wks  HV02-19,maternal_arvs_newly_initiated_PNC,,,,,,missing,hiv
+lJpaBye9B0H,MOH 731  On HAART at 1st ANC       HV02-16,maternal_arvs_currently on ART,,,,,,missing,hiv
+qSgLzXh46n9,MOH 731 Known Positive at 1st ANC HV02-03,pregnant_hiv_pos_known_pos,,,,,,missing,hiv
+hZrdUVigO54,MOH 731 Syphilis Screened_Positive HV02-25,syphilis_test_pos,,,,,,missing,hiv
+i5jVVTm1vI8,MOH 731 Syphilis Screened_1st ANC HV02-24,syphilis_test,,,,,,missing,hiv
+B5vYo0y1Vmr,MOH731B Positive_HBV,anc_hbv_test_pos,,,,,,missing,hiv
+KuMX8VqCejs,MOH 711 Deliveries from HIV+ve Women,delivery_hiv,,,,,,missing,rmnch
+wbJOu4h2SSz,MOH 731 On ART_1-9 HV03-029,art_old_9,,,,,,missing,
+GSEmLUnrvzj,MOH 731   On ART_10-14  (F)         HV03-031,art_old_14_f,,,,,,missing,
+Jbu4if6gtDp,MOH 731   On ART_10-14(M)         HV03-030,art_old_14_m,,,,,,missing,
+o3YWDmrL9pq,Proportion of under 1 year receiving DPT/Hep+HiB3,under1_DPT/Hep+HiB3,,,,,,missing,immunization
+p4JRNrjpkLr,Proportion of children under one year who are fully immunized,under1_fully_immunized,,,,,,missing,immunization
+SJL4k6Gl53C,MOH 731 On ART_<1 HV03-028,art_old_0,,,,,,missing,
+AQsTt7jtKbt,MOH 731 On ART_15-19 (F) HV03-033,art_old_19_f,,,,,,missing,
+oOOnacUi9Jm,MOH 731 On ART_15-19(M) HV03-032,art_old_19_m,,,,,,missing,
+EhZQp3PTA3C,MOH 731 On ART_20-24 (F) HV03-035,art_old_24_f,,,,,,missing,
+e93GKJTHKAX,MOH 731 On ART_20-24(M) HV03-034,art_old_24_m,,,,,,missing,
+yNCUlEYkmyA,MOH 731 On ART_25+ (F) HV03-037,art_old_25+_f,,,,,,missing,
+pR7VzBydoj3,MOH 731 On ART_25+(M) HV03-036,art_old_25+_m,,,,,,missing,
+OjfPFN6k49U,MOH 731_HIV_TB_OnART_<1 (F) HV03-16,art_new_0_f,,,,,,missing,
+MznGrMiRYoI,MOH 731_HIV_TB_OnART_<1 (M) HV03-15,art_new_0_m,,,,,,missing,
+RLW8RcVMQ7U,MOH 731_HIV_TB_OnART_1-4 (F) HV03-18,art_new_4_f,,,,,,missing,
+ZzqJfnuxQcr,MOH 731_HIV_TB_OnART_1-4 (M) HV03-17,art_new_4_m,,,,,,missing,
+pfpngkIkJte,MOH 731_HIV_TB_OnART_5-9 (F) HV03-20,art_new_9_f,,,,,,missing,
+Mlzh8XAy7tC,MOH 731_HIV_TB_OnART_5-9(M)HV03-19,art_new_9_m,,,,,,missing,
+ScPUqF0Y9iR,MOH 731_HIV_TB_OnART_10-14_(F)_HV03-22,art_new_14_f,,,,,,missing,
+Znoc9rhbdBM,MOH 731_HIV_TB_OnART_10-14_(M)_HV03-21,art_new_14_m,,,,,,missing,
+Z7Mhv4Iitme,MOH 731_HIV_TB_OnART_15-19_(F)_HV03-24,art_new_19_f,,,,,,missing,
+yNBvvJH1WDk,MOH 731_HIV_TB_OnART_15-19_(M)_HV03-23,art_new_19_m,,,,,,missing,
+zSDvIBJbXbx,MOH 731_HIV_TB_OnART_20-24_(F)_HV03-26,art_new_24_f,,,,,,missing,
+TBxEiC0QnKh,MOH 731_HIV_TB_OnART_20-24_(M)_HV03-25,art_new_24_m,,,,,,missing,
+pZsEt5UJli5,MOH 731_HIV_TB_OnART_25+_(F)_HV03-28,art_new_25+_f,,,,,,missing,
+A3tGIJeZnYy,MOH 731_HIV_TB_OnART_25+_(M)_HV03-27,art_new_25+_m,,,,,,missing,
+,,syphilis_treatment,,,,,,missing,
+,,hepatitis_B_treatment,,,,,,missing,
+,,positive_pcr_<2months,,,,,,missing,
+,,Viral load test conducted among children,,,,,,missing,
+,,Viral load test <1000 copies among children,,,,,,missing,
+,,HIV testing among 10-19,,,,,,missing,
+,,HIV testing among 15-24,,,,,,missing,
+,,Positive HIV tests among 10-19,,,,,,missing,
+,,Positive HIV tests among 15-24,,,,,,missing,
+,,HPV vaccine to adolescents,,,,,,missing,
+,, Population 0-14,,,,,,missing,
+,,Population 10-19,,,,,,missing,
+,,Population 15-24,,,,,,missing,
