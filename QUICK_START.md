@@ -428,7 +428,7 @@ Compare month-to-month to track improvements!
 AHEAD Data Analytics team
 
 **Project Technical Contact:**
-- Dr. Amobi Onovo
+- Dr. Amobi Onovo, 
   HIV Data Scientist, Integrated Analytics
   UNICEF AHEAD Project
   Email: aonovo@unicef.org
