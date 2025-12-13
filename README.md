@@ -443,12 +443,12 @@ The dashboard will open automatically at: `http://localhost:8501`
 | Tab | Purpose | Key Features |
 |-----|---------|--------------|
 | **Indicators** | Indicator-level DQ metrics | Filter by type, rank by metric, identify worst performers |
-| **Units** | Unit-level completeness | Filter by admin level, find low-reporting facilities |
+| **Units** | Unit-level completeness | Filter by admin level, identify low-reporting facilities |
 | **DQ Heatmap** | Multi-metric comparison | Visual comparison across all indicators |
-| **Map** | Geographic anomalies | Bubble map showing outlier distribution by location |
+| **Map** | Identify Geographic anomalies | Proportional symbol (bubble) map showing outlier distribution by location |
 | **Outliers** | Record-level review | Detailed outlier list with z-scores for verification |
 | **Derived Indicators** | Cleaned trend analysis | Time series of percentage-based indicators |
-| **Export** | Download outputs | CSV exports of all DQ tables |
+| **Export** | Download outputs | CSV exports of all Data Quality tables |
 
 ---
 
