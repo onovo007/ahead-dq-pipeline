@@ -790,11 +790,11 @@ MIT License
 - ✅ Notebook for interactive analysis
 
 **Recommended Future Enhancements:**
-- 🔄 Automated email alerts for critical DQ issues
-- 🌍 Multi-country comparison dashboard
-- 🤖 Advanced outlier detection (ML-based)
-- 🔗 Integration with DHIS2 data quality app
-- 📊 Trend analysis and forecasting
+- Automated email alerts for critical DQ issues
+- Multi-country comparison dashboard
+- Advanced outlier detection (ML-based)
+- Integration with DHIS2 data quality app
+- Trend analysis and forecasting
 
 ---
 
