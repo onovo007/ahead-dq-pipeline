@@ -764,9 +764,9 @@ When reporting problems, include:
 
 **UNICEF Health & HIV Analytics (DAPM)**
 
-**Technical Lead & Developer:**  
+**Project Technical Contact:**  
 Dr. Amobi Onovo  
-HIV Data Scientist  
+HIV Data Scientist, Integrated Analytics  
 UNICEF AHEAD Project  
 Email: aonovo@unicef.org
 
