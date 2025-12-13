@@ -780,8 +780,6 @@ Integrated Analytics Consultancy for Data Quality Assessment
 MIT License  
 © 2025 UNICEF AHEAD Project
 
-Permission is hereby granted to use, modify, and distribute this software for non-commercial purposes related to public health monitoring and UNICEF program support.
-
 ---
 
 ## 🐛 Known Issues & Recent Fixes
