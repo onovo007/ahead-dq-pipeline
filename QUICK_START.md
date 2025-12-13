@@ -426,7 +426,7 @@ Compare month-to-month to track improvements!
 
 ## 📞 WHO TO CONTACT
 
-UNICEF Health and HIV Analytics Unit (HHU) within DAPM
+**UNICEF Health and HIV Analytics Unit (HHU) within DAPM**
 
 **Project Technical Contact:**  
 Dr. Amobi Onovo,  
