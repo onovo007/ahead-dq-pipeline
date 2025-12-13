@@ -798,17 +798,6 @@ MIT License
 
 ---
 
-## Acknowledgments
-
-This work was developed under the UNICEF AHEAD project, supporting countries to strengthen their health information systems and data use for decision-making.
-
-**Technical Contributors:**
-- Dr. Amobi Onovo (HIV Data Scientist & Lead Developer)
-- UNICEF DAPM Team (Requirements & Testing)
-- Country HMIS Teams (Validation & Feedback)
-
----
-
 **Last Updated:** December 13, 2024  
 **Document Version:** 1.1  
 **Pipeline Version:** 1.1  
