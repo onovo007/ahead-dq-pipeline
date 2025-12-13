@@ -428,10 +428,10 @@ Compare month-to-month to track improvements!
 
 UNICEF Health and HIV Analytics (DAPM)
 
-**Project Technical Contact:**
-  Dr. Amobi Onovo, 
-  HIV Data Scientist, Integrated Analytics  
-  Email: aonovo@unicef.org
+**Project Technical Contact:**  
+Dr. Amobi Onovo,  
+HIV Data Scientist, Integrated Analytics  
+Email: aonovo@unicef.org
 
 ---
 
