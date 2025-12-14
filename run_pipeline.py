@@ -382,12 +382,13 @@ def compute_derived_indicators(df: pd.DataFrame) -> pd.DataFrame:
     indicators_computed = 0
     for derived_name, (numerator, denominator) in derived_formulas.items():
         if numerator in df_wide.columns and denominator in df_wide.columns:
+            # Calculate as decimal (0-1) for Excel percentage formatting
             df_wide[derived_name] = (
                 df_wide[numerator] / df_wide[denominator].replace(0, np.nan)
-            ) * 100  # Convert to percentage (0-100)
+            )
             
-            # Cap at 100%
-            df_wide[derived_name] = df_wide[derived_name].clip(upper=100.0)
+            # Cap at 100% (1.0 in decimal form)
+            df_wide[derived_name] = df_wide[derived_name].clip(upper=1.0)
             indicators_computed += 1
     
     print(f"✓ Computed {indicators_computed} derived indicators (from {len(derived_formulas)} formulas)")
