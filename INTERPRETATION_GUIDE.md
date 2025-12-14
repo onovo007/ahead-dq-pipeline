@@ -88,7 +88,7 @@ This guide helps you interpret the outputs from the AHEAD Data Quality Pipeline.
 
 #### **1. Avg Completeness**
 ```
-What it shows: Average % of indicators reported across all facilities
+What it shows: Average % of indicators reported across all districts/wards
 Example: 41.4%
 Interpretation: Facilities report less than half of expected indicators
 Action: Identify commonly unreported indicators, investigate barriers
@@ -106,13 +106,13 @@ Action: Minimal concern, review outliers to catch errors
 ```
 What it shows: Number of indicators with severe missingness
 Example: 0
-Interpretation: When facilities report, they report completely
+Interpretation: When districts/wards report, they report completely
 Action: No action needed (but see low completeness issue)
 ```
 
 #### **4. Low Reporting (<80%)**
 ```
-What it shows: Number of facilities reporting less than 80% of indicators
+What it shows: Number of districts/wards reporting less than 80% of indicators
 Example: 1,453 facilities
 Interpretation: MOST facilities have reporting gaps - this is your main issue
 Action: PRIORITY - Investigate why facilities don't report all indicators
@@ -128,7 +128,7 @@ Action: Review high-value outliers first, verify with facilities
 
 **Overall Story:**
 ```
-✅ Good: Data quality is excellent when facilities report
+✅ Good: Data quality is excellent when districts/wards report
 ⚠️ Concern: Only 41% of indicators are reported on average
 🎯 Action: Focus on COMPLETENESS, not quality
 ```
@@ -212,7 +212,7 @@ Likely reasons:
 
 **Week 1: Contact & Understand**
 ```bash
-1. Contact the 10 lowest-reporting facilities
+1. Contact the 10 lowest-reporting wards
 2. Ask: "Why are you not reporting [specific indicators]?"
 3. Categorize reasons (training vs system vs service availability)
 ```
@@ -228,7 +228,7 @@ Likely reasons:
 **Quarter 1: Monitor Improvement**
 ```bash
 1. Re-run pipeline monthly
-2. Track improvement in bottom 10 facilities
+2. Track improvement in bottom 10 districts/wards
 3. Share best practices from top performers
 4. Recognize improving facilities
 ```
