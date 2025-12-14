@@ -362,6 +362,9 @@ def derived_page(df_derived: pd.DataFrame):
 
     # Apply 3-month moving average
     df_plot[indicator] = df_plot[indicator].rolling(3, min_periods=1).mean()
+    
+    # Convert to percentage (0-100) for display
+    df_plot[indicator] = df_plot[indicator] * 100
 
     fig, ax = plt.subplots(figsize=(10, 5))
     ax.plot(df_plot["date"], df_plot[indicator], linewidth=2, marker='o', markersize=3)
