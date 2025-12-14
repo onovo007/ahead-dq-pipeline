@@ -426,17 +426,12 @@ Compare month-to-month to track improvements!
 
 ## 📞 WHO TO CONTACT
 
-**Technical Issues:**
-- Dr. Amobi Onovo - aonovo@unicef.org
+**UNICEF Health and HIV Analytics Unit (HHU) within DAPM**
 
-**Database Access:**
-- [Your IT Team Contact]
-
-**DHIS2 Questions:**
-- [Your DHIS2 Admin Contact]
-
-**Program Interpretation:**
-- [Your M&E Team Contact]
+**Project Technical Contact:**  
+Dr. Amobi Onovo,  
+HIV Data Scientist, Integrated Analytics  
+Email: aonovo@unicef.org
 
 ---
 

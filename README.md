@@ -443,12 +443,12 @@ The dashboard will open automatically at: `http://localhost:8501`
 | Tab | Purpose | Key Features |
 |-----|---------|--------------|
 | **Indicators** | Indicator-level DQ metrics | Filter by type, rank by metric, identify worst performers |
-| **Units** | Unit-level completeness | Filter by admin level, find low-reporting facilities |
+| **Units** | Unit-level completeness | Filter by admin level, identify low-reporting facilities |
 | **DQ Heatmap** | Multi-metric comparison | Visual comparison across all indicators |
-| **Map** | Geographic anomalies | Bubble map showing outlier distribution by location |
+| **Map** | Identify Geographic anomalies | Proportional symbol (bubble) map showing outlier distribution by location |
 | **Outliers** | Record-level review | Detailed outlier list with z-scores for verification |
 | **Derived Indicators** | Cleaned trend analysis | Time series of percentage-based indicators |
-| **Export** | Download outputs | CSV exports of all DQ tables |
+| **Export** | Download outputs | CSV exports of all Data Quality tables |
 
 ---
 
@@ -762,11 +762,11 @@ When reporting problems, include:
 
 ## Contact & Support
 
-**UNICEF Health & HIV Analytics (DAPM)**
+**UNICEF Health and HIV Analytics Unit (HHU) within DAPM**
 
-**Technical Lead & Developer:**  
+**Project Technical Contact:**  
 Dr. Amobi Onovo  
-HIV Data Scientist  
+HIV Data Scientist, Integrated Analytics  
 UNICEF AHEAD Project  
 Email: aonovo@unicef.org
 
@@ -780,72 +780,7 @@ Integrated Analytics Consultancy for Data Quality Assessment
 MIT License  
 © 2025 UNICEF AHEAD Project
 
-Permission is hereby granted to use, modify, and distribute this software for non-commercial purposes related to public health monitoring and UNICEF program support.
-
 ---
-
-## 🐛 Known Issues & Recent Fixes
-
-### ✅ **Fixed in Latest Version (December 2024)**
-
-**Bug #1: Percentage Calculation - FIXED** ✓  
-- **Issue:** Indicator summary showed percentages over 100% (e.g., 1273%)
-- **Cause:** Values multiplied by 100 twice (in code and Excel formatting)
-- **Fix:** Percentages now stored as decimals (0-1) and Excel formats correctly
-- **Status:** Fixed in run_pipeline.py v1.1
-
-**Bug #2: Derived Indicator Format - FIXED** ✓  
-- **Issue:** Derived indicators showed 0-1 instead of 0-100%
-- **Cause:** Missing multiplication by 100
-- **Fix:** All derived indicators now show as percentages (0-100%)
-- **Status:** Fixed in run_pipeline.py v1.1 and dq_dashboard_app.py v1.1
-
-**Bug #3: Load Order - FIXED** ✓  
-- **Issue:** Script failed with "DB_CONN not found" even when .env existed
-- **Cause:** load_environment() called after validation
-- **Fix:** Environment variables loaded before validation
-- **Status:** Fixed in run_pipeline.py v1.1
-
-**Bug #4: Column Name Mismatch - FIXED** ✓  
-- **Issue:** Query failed with "column value_clean does not exist"
-- **Cause:** Database has `value` column, code expected `value_clean`
-- **Fix:** Query now gets `value` and renames to `value_clean`
-- **Status:** Fixed in run_pipeline.py v1.1
-
-**Bug #5: Limited Derived Indicators - FIXED** ✓  
-- **Issue:** Only 4 derived indicators vs 14 needed
-- **Cause:** Limited formula list
-- **Fix:** Expanded to 14 indicators (ANC, delivery, testing coverage)
-- **Status:** Fixed in run_pipeline.py v1.1
-
-### ⚠️ **Current Limitations**
-
-**Warning: Geographic CRS**  
-- You may see: `UserWarning: Geometry is in a geographic CRS`
-- **Impact:** None - centroids still accurate within a few meters
-- **Status:** Cosmetic warning, safe to ignore
-
-**Windows psycopg Installation**  
-- `psycopg` (v3) has installation issues on Windows
-- **Workaround:** Use `psycopg2-binary` instead (documented above)
-- **Status:** Known issue, workaround works well
-
----
-
-## Version History
-
-**v1.1 (December 13, 2024)** - **Current Version**
-- 🐛 **Fixed:** Percentage calculation bug (1273% → 12.73%)
-- 🐛 **Fixed:** Derived indicator format (0.954 → 95.4%)
-- 🐛 **Fixed:** Load environment order (DB_CONN not found)
-- 🐛 **Fixed:** Column name mismatch (value_clean vs value)
-- ✨ **Enhanced:** Expanded derived indicators (4 → 14 formulas)
-- ✨ **Enhanced:** Added outlier threshold columns (transparency)
-- 📚 **Improved:** Comprehensive README with troubleshooting
-- 📚 **Added:** Windows-specific installation guide
-- 📚 **Added:** Password encoding documentation
-- 📚 **Added:** Database connection testing instructions
-- ⚡ **Optimized:** Dashboard Y-axis for derived indicators (0-100%)
 
 **v1.0 (December 2024)** - Initial Release
 - ✅ Core DQ metrics implementation
@@ -854,38 +789,12 @@ Permission is hereby granted to use, modify, and distribute this software for no
 - ✅ Automated pipeline script
 - ✅ Notebook for interactive analysis
 
-**Future Enhancements (Planned):**
-- 🔄 Automated email alerts for critical DQ issues
-- 🌍 Multi-country comparison dashboard
-- 🤖 Advanced outlier detection (ML-based)
-- 🔗 Integration with DHIS2 data quality app
-- 📊 Trend analysis and forecasting
-
----
-
-## Acknowledgments
-
-This work was developed under the UNICEF AHEAD (Action for Health, Equity, Accountability and Data) Project, supporting countries to strengthen their health information systems and data use for decision-making.
-
-**Technical Contributors:**
-- Dr. Amobi Onovo (Lead Developer)
-- UNICEF DAPM Team (Requirements & Testing)
-- Country HMIS Teams (Validation & Feedback)
-
----
-
-## Additional Resources
-
-**Project Documentation:**
-- 📖 **[INTERPRETATION_GUIDE.md](INTERPRETATION_GUIDE.md)** - How to understand your DQ results
-- 📖 **[QUICK_START.md](QUICK_START.md)** - Fast setup guide for country teams
-- 📖 **[CONSISTENCY_FIXES.md](CONSISTENCY_FIXES.md)** - Recent bug fixes and improvements
-
-**External Resources:**
-- DHIS2 Documentation: https://docs.dhis2.org/
-- AHEAD Project Overview: [internal link]
-- Data Quality Best Practices: [internal link]
-- Streamlit Documentation: https://docs.streamlit.io/
+**Recommended Future Enhancements:**
+- Automated email alerts for critical DQ issues
+- Multi-country comparison dashboard
+- Advanced outlier detection (ML-based)
+- Integration with DHIS2 data quality app
+- Trend analysis and forecasting
 
 ---
 
