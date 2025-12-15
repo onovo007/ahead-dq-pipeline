@@ -1,4 +1,4 @@
-# AHEAD – Integrated Data Quality Analytics & Dashboard
+# AHEAD – Integrated Data Quality Analytics Pipeline & Dashboard
 
 **Country-Focused Data Quality Assessment for Health & HIV Programs**
 
