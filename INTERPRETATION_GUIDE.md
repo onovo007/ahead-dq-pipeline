@@ -522,7 +522,7 @@ Stagnant (→):
 **What you see:**
 ```
 Avg Completeness: 42%
-Median % Outliers: 0.05%
+Median % Outliers: 0.07%
 High Missing: 0
 Duplicates: 0
 ```
@@ -730,7 +730,7 @@ Use this checklist for regular data quality reviews:
 | Issue | Response Time |
 |-------|---------------|
 | Critical outlier (>10x median) | 48 hours |
-| Facility <40% completeness | 1 week |
+| ward <40% completeness | 1 week |
 | Declining trend detected | 1 week |
 | Geographic clustering | 2 weeks |
 | Monthly report | End of month |
@@ -844,5 +844,5 @@ dq_review_ken_level4_2024_12.xlsx
 ---
 
 **Document Version:** 1.0  
-**Last Updated:** December 13, 2024  
+**Last Updated:** December 13, 2025  
 **Compatible with:** Pipeline v1.1, Dashboard v1.1
