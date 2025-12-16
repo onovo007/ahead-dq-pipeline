@@ -471,7 +471,7 @@ Before Your First DQ Review Meeting:
 
 ---
 
-**Last Updated:** December 13, 2024  
+**Last Updated:** December 13, 2025  
 **Quick Start Version:** 1.1  
 **Pipeline Version:** 1.1  
 **Compatible with:** run_pipeline.py v1.1, dq_dashboard_app.py v1.1
