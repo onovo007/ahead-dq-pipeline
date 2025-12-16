@@ -113,7 +113,7 @@ Action: No action needed (but see low completeness issue)
 #### **4. Low Reporting (<80%)**
 ```
 What it shows: Number of districts/wards reporting less than 80% of indicators
-Example: 1,453 facilities
+Example: 1,453 wards
 Interpretation: MOST facilities have reporting gaps - this is your main issue
 Action: PRIORITY - Investigate why facilities don't report all indicators
 ```
