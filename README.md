@@ -771,7 +771,7 @@ UNICEF AHEAD Project
 Email: aonovo@unicef.org
 
 **Project Context:**  
-Integrated Analytics Consultancy for Data Quality Assessment
+Integrated Analytics Consultancy for Data Quality Improvement
 
 ---
 
