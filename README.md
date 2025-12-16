@@ -2,7 +2,7 @@
 
 **Country-Focused Data Quality Assessment for Health & HIV Programs**
 
-This repository provides a complete, reproducible data quality analytics package developed under the UNICEF AHEAD Project. It supports country teams and analysts to assess, interpret, and act on data quality issues using standardized metrics, automated pipelines, and an interactive Streamlit dashboard.
+This repository provides a complete, reproducible integrated data quality analytics package developed under the UNICEF AHEAD Project. It supports country teams and analysts to assess, interpret, and act on data quality issues using standardized metrics, automated pipelines, and an interactive Streamlit dashboard.
 
 The package is designed for both analyst-driven exploration and country-level automation, ensuring transparency, trust, and operational usability.
 
