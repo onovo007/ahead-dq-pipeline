@@ -114,16 +114,18 @@ Action: No action needed (but see low completeness issue)
 ```
 What it shows: Number of districts/wards reporting less than 80% of indicators
 Example: 1,453 wards
-Interpretation: MOST facilities have reporting gaps - this is your main issue
-Action: PRIORITY - Investigate why facilities don't report all indicators
+Interpretation: MOST wards have reporting gaps - this is your main issue
+Action: PRIORITY - Investigate why wards don't report all indicators
 ```
 
 #### **5. Outliers Flagged**
 ```
-What it shows: Total number of statistical outliers across all data
-Example: 272,162 outliers
-Interpretation: Out of 3.8M observations, 7% are outliers (93% normal)
-Action: Review high-value outliers first, verify with facilities
+What it shows: Statistical outliers requiring verification
+Example: 272,162 records flagged
+Interpretation: Most indicators perform excellently (median: 0.07% outliers). 
+Issues are concentrated in vitamin A, HPV1, and HIV testing indicators.
+Action: Review extreme outliers first (|z| > 4), focus on worst-performing 
+indicators, verify patterns with wards.
 ```
 
 **Overall Story:**
