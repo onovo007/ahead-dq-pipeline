@@ -460,7 +460,7 @@ The dashboard will open automatically at: `http://localhost:8501`
 
 2. **Drill down systematically:**
    - Indicators tab → Identify problematic indicators
-   - Units tab → Find facilities needing support
+   - Units tab → Find wards/facilities needing support
    - Map tab → Geographic patterns
    - Outliers tab → Verify specific records
 
@@ -477,7 +477,7 @@ Based on typical DQ review findings, countries should:
 
 ### Immediate Actions (Week 1-2)
 1. **Prioritize units with < 80% completeness**
-   - Contact facility focal points
+   - Contact ward/facility focal points
    - Identify reporting barriers
    - Provide technical support
 
@@ -524,7 +524,7 @@ The Excel output supports:
    - Note patterns by indicator type
 
 2. **Review "completeness_unit" sheet**
-   - Flag facilities needing follow-up
+   - Flag districts/wards needing follow-up
    - Group by admin level for targeted support
 
 3. **Validate "outliers" sheet**
@@ -533,7 +533,7 @@ The Excel output supports:
    - Document verification decisions
 
 4. **Correct upstream errors**
-   - Work with facility staff
+   - Work with ward/facility staff
    - Fix in source DHIS2 system
    - Re-run pipeline after corrections
 
@@ -782,7 +782,7 @@ MIT License
 
 ---
 
-**v1.0 (December 2024)** - Initial Release
+**v1.0 (December 2025)** - Initial Release
 - ✅ Core DQ metrics implementation
 - ✅ Excel export functionality
 - ✅ Streamlit dashboard with interactive map
@@ -798,7 +798,6 @@ MIT License
 
 ---
 
-**Last Updated:** December 13, 2024  
+**Last Updated:** December 13, 2025
 **Document Version:** 1.1  
-**Pipeline Version:** 1.1  
-**Status:** Production-Ready ✅
+**Pipeline Version:** 1.1
